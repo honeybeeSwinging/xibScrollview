@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D8E50CFFD4590F08B1B7445F4F8D542 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C915B291C9445A556E859E1B219D2ADE /* UITableView+SDAutoTableViewCellHeight.m */; };
+		13FBFA42B0311CE1D2EF5765FBBF35AB /* XXNibConvention.m in Sources */ = {isa = PBXBuildFile; fileRef = A2107D8679BC06E56DAE5E405EB77541 /* XXNibConvention.m */; };
+		307B5802F9D1CBD4DA0E08917059EBF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3092E1F32CA6835F5474460348E41167 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF68B2540EE21E18806DFF87688FC48 /* UIView+SDAutoLayout.m */; };
+		3886C632AD0FC2EBE12E26A285EA541F /* UIView+SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 236F2A820CBF32898DD833DC805A43BC /* UIView+SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64DDCE2BD2C2E3ADEDDE9C0C0F3AE438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		66CFC7257EB1404B79B7AD08397090A3 /* SDAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB9174114A6019A89865660390E70B1 /* SDAutoLayout-dummy.m */; };
+		76D5E848D06B6F1BC9FC79CA622255CD /* XXNibBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A94B71B97495738370349C685BE4D /* XXNibBridge.m */; };
+		AFA91FF28F6C756842DA3D9C05886934 /* Pods-xibForScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C018810A9009269E819893062779667A /* Pods-xibForScrollView-dummy.m */; };
+		B2D01DC6EC77B2A4AB4CA72049899DC1 /* XXNibBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CD9FA108D0B202EF5B6F20209896D1 /* XXNibBridge-dummy.m */; };
+		BE95C0EDE346DF57EF193BADB2243499 /* XXNibConvention.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B87C32FD77492D2CD925ECFB02F2D64 /* XXNibConvention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2FFC3ED62E7D33F4CF6850692E46561 /* XXNibBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D44210CFB322C969FA36054423156C /* XXNibBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9E282FF97DFB2E29AA70021E2DBA935 /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = D04098F59BDCB1A9E3A177EBEEC1F26F /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB84B1BC77EEBBC25FA38E111899EE7C /* SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C050DBF2AD2246F1FBE5D7EF846BF26B /* SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE6C49E751F9725E761F1DD6E25DB668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27098F760290A42D3BA3BA1BEFBA7DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E683420E3E863E5D7883810A5DE41F0E;
+			remoteInfo = XXNibBridge;
+		};
+		732A1C7913DC930BC3B18EAE893861FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2667782851280CB1C84886AFC10705;
+			remoteInfo = SDAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043A94B71B97495738370349C685BE4D /* XXNibBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XXNibBridge.m; path = XXNibBridge/XXNibBridge.m; sourceTree = "<group>"; };
+		1F48292051B22386929C191D32458862 /* XXNibBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XXNibBridge.xcconfig; sourceTree = "<group>"; };
+		236F2A820CBF32898DD833DC805A43BC /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SDAutoLayout.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		33B15BC9F634E0916F4C7B80A1DE12C5 /* libSDAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDAutoLayout.a; path = libSDAutoLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3675516059430888EDFCEDC1F1D6EB1E /* Pods-xibForScrollView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xibForScrollView-resources.sh"; sourceTree = "<group>"; };
+		42D44210CFB322C969FA36054423156C /* XXNibBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXNibBridge.h; path = XXNibBridge/XXNibBridge.h; sourceTree = "<group>"; };
+		5116B9032BBC3DF62BD0E3E917C42CEC /* SDAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		575CEF387ACCB6EB669E6AC7C29DF2EA /* Pods-xibForScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xibForScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		5A3D0CD45537A4B38A9379D92B8C6705 /* XXNibBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XXNibBridge-prefix.pch"; sourceTree = "<group>"; };
+		5F8A7D3C4C0C9D6FDCD5619F01E64040 /* libPods-xibForScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-xibForScrollView.a"; path = "libPods-xibForScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B87C32FD77492D2CD925ECFB02F2D64 /* XXNibConvention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXNibConvention.h; path = XXNibBridge/XXNibConvention.h; sourceTree = "<group>"; };
+		820F18FAA2DE2682D4F424BB6E871E09 /* SDAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAutoLayout.xcconfig; sourceTree = "<group>"; };
+		8FF68B2540EE21E18806DFF87688FC48 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2107D8679BC06E56DAE5E405EB77541 /* XXNibConvention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XXNibConvention.m; path = XXNibBridge/XXNibConvention.m; sourceTree = "<group>"; };
+		A9814AF66D90EA89764126460DC755FB /* Pods-xibForScrollView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xibForScrollView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0CD9FA108D0B202EF5B6F20209896D1 /* XXNibBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XXNibBridge-dummy.m"; sourceTree = "<group>"; };
+		B8DFB1A1FC3A8E13C2BF15FFF833811B /* Pods-xibForScrollView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xibForScrollView-acknowledgements.plist"; sourceTree = "<group>"; };
+		C018810A9009269E819893062779667A /* Pods-xibForScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xibForScrollView-dummy.m"; sourceTree = "<group>"; };
+		C050DBF2AD2246F1FBE5D7EF846BF26B /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAutoLayout.h; path = SDAutoLayoutDemo/SDAutoLayout/SDAutoLayout.h; sourceTree = "<group>"; };
+		C915B291C9445A556E859E1B219D2ADE /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SDAutoTableViewCellHeight.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		CB8F4AD8FE5606E134553756B98DAB30 /* libXXNibBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXXNibBridge.a; path = libXXNibBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D04098F59BDCB1A9E3A177EBEEC1F26F /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		E1B861FBA1BB59401C92995838C1A56E /* Pods-xibForScrollView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xibForScrollView-frameworks.sh"; sourceTree = "<group>"; };
+		EF5F0611BE31C2D898BF3ADDCAA01CD1 /* Pods-xibForScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xibForScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		FFB9174114A6019A89865660390E70B1 /* SDAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAutoLayout-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F0B2584557DB71C8815D0A2B40B5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DDCE2BD2C2E3ADEDDE9C0C0F3AE438 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB07104C5D7794F8A229C30B18570DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307B5802F9D1CBD4DA0E08917059EBF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA025E05ADBFDB27CEA4CFE6875538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6C49E751F9725E761F1DD6E25DB668 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E8A743E92B9282E4C8A529F406D2A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F8A7D3C4C0C9D6FDCD5619F01E64040 /* libPods-xibForScrollView.a */,
+				33B15BC9F634E0916F4C7B80A1DE12C5 /* libSDAutoLayout.a */,
+				CB8F4AD8FE5606E134553756B98DAB30 /* libXXNibBridge.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BD9B14239EEFAF4C0B293EE88DE1561 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				820F18FAA2DE2682D4F424BB6E871E09 /* SDAutoLayout.xcconfig */,
+				FFB9174114A6019A89865660390E70B1 /* SDAutoLayout-dummy.m */,
+				5116B9032BBC3DF62BD0E3E917C42CEC /* SDAutoLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDAutoLayout";
+			sourceTree = "<group>";
+		};
+		452ED9335E1833AC618124C7219224F1 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C050DBF2AD2246F1FBE5D7EF846BF26B /* SDAutoLayout.h */,
+				D04098F59BDCB1A9E3A177EBEEC1F26F /* UITableView+SDAutoTableViewCellHeight.h */,
+				C915B291C9445A556E859E1B219D2ADE /* UITableView+SDAutoTableViewCellHeight.m */,
+				236F2A820CBF32898DD833DC805A43BC /* UIView+SDAutoLayout.h */,
+				8FF68B2540EE21E18806DFF87688FC48 /* UIView+SDAutoLayout.m */,
+				2BD9B14239EEFAF4C0B293EE88DE1561 /* Support Files */,
+			);
+			name = SDAutoLayout;
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		5396003395A2EF858A72314ECD26DEF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				452ED9335E1833AC618124C7219224F1 /* SDAutoLayout */,
+				BD8FC4AC8A4B224A183CE559A970B094 /* XXNibBridge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67E8C847C9BAE78B86F03F480477980F /* Pods-xibForScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A9814AF66D90EA89764126460DC755FB /* Pods-xibForScrollView-acknowledgements.markdown */,
+				B8DFB1A1FC3A8E13C2BF15FFF833811B /* Pods-xibForScrollView-acknowledgements.plist */,
+				C018810A9009269E819893062779667A /* Pods-xibForScrollView-dummy.m */,
+				E1B861FBA1BB59401C92995838C1A56E /* Pods-xibForScrollView-frameworks.sh */,
+				3675516059430888EDFCEDC1F1D6EB1E /* Pods-xibForScrollView-resources.sh */,
+				575CEF387ACCB6EB669E6AC7C29DF2EA /* Pods-xibForScrollView.debug.xcconfig */,
+				EF5F0611BE31C2D898BF3ADDCAA01CD1 /* Pods-xibForScrollView.release.xcconfig */,
+			);
+			name = "Pods-xibForScrollView";
+			path = "Target Support Files/Pods-xibForScrollView";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5396003395A2EF858A72314ECD26DEF1 /* Pods */,
+				19E8A743E92B9282E4C8A529F406D2A3 /* Products */,
+				C04A05E2FB6D2BF02DFCA7EA19BF9271 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94C21C5F2BF5E339ED72C831074D351B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F48292051B22386929C191D32458862 /* XXNibBridge.xcconfig */,
+				B0CD9FA108D0B202EF5B6F20209896D1 /* XXNibBridge-dummy.m */,
+				5A3D0CD45537A4B38A9379D92B8C6705 /* XXNibBridge-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XXNibBridge";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8FC4AC8A4B224A183CE559A970B094 /* XXNibBridge */ = {
+			isa = PBXGroup;
+			children = (
+				42D44210CFB322C969FA36054423156C /* XXNibBridge.h */,
+				043A94B71B97495738370349C685BE4D /* XXNibBridge.m */,
+				6B87C32FD77492D2CD925ECFB02F2D64 /* XXNibConvention.h */,
+				A2107D8679BC06E56DAE5E405EB77541 /* XXNibConvention.m */,
+				94C21C5F2BF5E339ED72C831074D351B /* Support Files */,
+			);
+			name = XXNibBridge;
+			path = XXNibBridge;
+			sourceTree = "<group>";
+		};
+		C04A05E2FB6D2BF02DFCA7EA19BF9271 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67E8C847C9BAE78B86F03F480477980F /* Pods-xibForScrollView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2CF64FF020AF0ABED77E59B3ED96ED7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FFC3ED62E7D33F4CF6850692E46561 /* XXNibBridge.h in Headers */,
+				BE95C0EDE346DF57EF193BADB2243499 /* XXNibConvention.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9447798683CF18CD3A24B65EC15EF44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB84B1BC77EEBBC25FA38E111899EE7C /* SDAutoLayout.h in Headers */,
+				E9E282FF97DFB2E29AA70021E2DBA935 /* UITableView+SDAutoTableViewCellHeight.h in Headers */,
+				3886C632AD0FC2EBE12E26A285EA541F /* UIView+SDAutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F2667782851280CB1C84886AFC10705 /* SDAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EE64F62623B36633870C9F2487F3FA /* Build configuration list for PBXNativeTarget "SDAutoLayout" */;
+			buildPhases = (
+				F0CBCD8B3F202AB34A8561A4FAE76ACF /* Sources */,
+				9BB07104C5D7794F8A229C30B18570DF /* Frameworks */,
+				F9447798683CF18CD3A24B65EC15EF44 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDAutoLayout;
+			productName = SDAutoLayout;
+			productReference = 33B15BC9F634E0916F4C7B80A1DE12C5 /* libSDAutoLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BB90A2955C8B6AA22F94365C75EAC6D8 /* Pods-xibForScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2EFB0432939CCAA78A8F87A2F0F81C /* Build configuration list for PBXNativeTarget "Pods-xibForScrollView" */;
+			buildPhases = (
+				D56B33AFCE54BFBFEB1D1D3F55CC46E0 /* Sources */,
+				61F0B2584557DB71C8815D0A2B40B5ED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A533FC1F171E302DFF7EBB562BCDAFEB /* PBXTargetDependency */,
+				00CC618A469110D3B1DDBE4C9F8FD795 /* PBXTargetDependency */,
+			);
+			name = "Pods-xibForScrollView";
+			productName = "Pods-xibForScrollView";
+			productReference = 5F8A7D3C4C0C9D6FDCD5619F01E64040 /* libPods-xibForScrollView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E683420E3E863E5D7883810A5DE41F0E /* XXNibBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55920D16F2AEEA8B95AA4D8FBEE681B5 /* Build configuration list for PBXNativeTarget "XXNibBridge" */;
+			buildPhases = (
+				007B60C89614E33E9D9C351F558F26D3 /* Sources */,
+				D5DA025E05ADBFDB27CEA4CFE6875538 /* Frameworks */,
+				D2CF64FF020AF0ABED77E59B3ED96ED7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XXNibBridge;
+			productName = XXNibBridge;
+			productReference = CB8F4AD8FE5606E134553756B98DAB30 /* libXXNibBridge.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 19E8A743E92B9282E4C8A529F406D2A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB90A2955C8B6AA22F94365C75EAC6D8 /* Pods-xibForScrollView */,
+				7F2667782851280CB1C84886AFC10705 /* SDAutoLayout */,
+				E683420E3E863E5D7883810A5DE41F0E /* XXNibBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007B60C89614E33E9D9C351F558F26D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D01DC6EC77B2A4AB4CA72049899DC1 /* XXNibBridge-dummy.m in Sources */,
+				76D5E848D06B6F1BC9FC79CA622255CD /* XXNibBridge.m in Sources */,
+				13FBFA42B0311CE1D2EF5765FBBF35AB /* XXNibConvention.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56B33AFCE54BFBFEB1D1D3F55CC46E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA91FF28F6C756842DA3D9C05886934 /* Pods-xibForScrollView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CBCD8B3F202AB34A8561A4FAE76ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CFC7257EB1404B79B7AD08397090A3 /* SDAutoLayout-dummy.m in Sources */,
+				0D8E50CFFD4590F08B1B7445F4F8D542 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				3092E1F32CA6835F5474460348E41167 /* UIView+SDAutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00CC618A469110D3B1DDBE4C9F8FD795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XXNibBridge;
+			target = E683420E3E863E5D7883810A5DE41F0E /* XXNibBridge */;
+			targetProxy = 27098F760290A42D3BA3BA1BEFBA7DEE /* PBXContainerItemProxy */;
+		};
+		A533FC1F171E302DFF7EBB562BCDAFEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDAutoLayout;
+			target = 7F2667782851280CB1C84886AFC10705 /* SDAutoLayout */;
+			targetProxy = 732A1C7913DC930BC3B18EAE893861FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FDDA88D68D8D8FB9B570CDF2166B79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820F18FAA2DE2682D4F424BB6E871E09 /* SDAutoLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1D2500221439CBB363D92A295B6FDE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F48292051B22386929C191D32458862 /* XXNibBridge.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XXNibBridge/XXNibBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		22D141AAB627DBBC7772A0875DFD0073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5F0611BE31C2D898BF3ADDCAA01CD1 /* Pods-xibForScrollView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4160664E57703F760499AFC968B83646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575CEF387ACCB6EB669E6AC7C29DF2EA /* Pods-xibForScrollView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4FFCD1855EC99AB91D42E80D5BD2EEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820F18FAA2DE2682D4F424BB6E871E09 /* SDAutoLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E5808FCEBC569890A9E658D0CCAC6FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F48292051B22386929C191D32458862 /* XXNibBridge.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XXNibBridge/XXNibBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EE64F62623B36633870C9F2487F3FA /* Build configuration list for PBXNativeTarget "SDAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDDA88D68D8D8FB9B570CDF2166B79B /* Debug */,
+				4FFCD1855EC99AB91D42E80D5BD2EEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55920D16F2AEEA8B95AA4D8FBEE681B5 /* Build configuration list for PBXNativeTarget "XXNibBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5808FCEBC569890A9E658D0CCAC6FDE /* Debug */,
+				1D2500221439CBB363D92A295B6FDE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2EFB0432939CCAA78A8F87A2F0F81C /* Build configuration list for PBXNativeTarget "Pods-xibForScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4160664E57703F760499AFC968B83646 /* Debug */,
+				22D141AAB627DBBC7772A0875DFD0073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
