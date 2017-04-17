@@ -24,8 +24,16 @@
     
     
     [_scrollview setupAutoContentSizeWithBottomView:_buttomView bottomMargin:0];
+    
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(test)];
+    [_buttomView addGestureRecognizer:tap];
 }
 
+
+- (void)test{
+    NSLog(@"=================");
+}
 
 
 @end
