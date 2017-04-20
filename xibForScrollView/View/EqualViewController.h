@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  EqualViewController.h
 //  xibForScrollView
 //
-//  Created by Radish on 2017/4/7.
+//  Created by Radish on 2017/4/18.
 //  Copyright © 2017年 Seller. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EqualViewController : UIViewController
 
 @end
-
